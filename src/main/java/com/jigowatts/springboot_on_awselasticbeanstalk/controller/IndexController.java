@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class IndexController {
     @GetMapping(value="/")
     public String index() {
-        return "Hello World!";
+        return "Hello AWS Elastic Beanstalk!";
     }
 }
